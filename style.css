@@ -1,0 +1,151 @@
+/* Navbar */
+.navbar-brand{
+    font-family: Montserrat;
+    font-size: 28px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(img/jumbotron.png);
+    background-size: cover;
+    height: 497px;
+}
+
+.jumbotron .display-4{
+    color: white;
+    text-align: center;
+    margin-top: 61px;
+    font-weight: 500;
+}
+
+.jumbotron .lead{
+    color: white;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.form-inline{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+/* Keterangan */
+.keterangan{
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    margin-top: -80px;
+    text-align: center;
+}
+
+.btn{
+    color: white !important;
+}
+
+/* tambahan */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+/* kategori */
+.kategori .display-4{
+    color: #595260;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 500;
+}
+
+.kategori .lead{
+    color: #595260;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.kategori-pekerjaan{
+    background-color: whitesmoke;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* page login */
+
+/* jumbotron login */
+.login{
+    background-image: url(img/jumbotron.png);
+    background-size: cover;
+    height: 300px;
+    margin-top: -70px;
+}
+
+.login .display-login{
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-weight: 1000px;
+}
+
+/* form login */
+
+
+
+.row-login{
+    background-color: whitesmoke;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    margin-top: 100px;
+}
+
+
+
+/* Mobile Version */
+@media (max-width: 575.98px) {
+
+    .jumbotron .display-4{
+        color: white;
+        text-align: center;
+        margin-top: 61px;
+        font-size: 30px;
+    }
+
+    .jumbotron .lead{
+        color: white;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    }
+
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron{
+        margin-top:-70px;
+    }
+
+}
